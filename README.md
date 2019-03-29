@@ -1,2 +1,2 @@
-# portfolio
-A simple site that is home to some of my other projects
+# Portfolio
+A simple site that is home to my resume, and some of my other projects
