@@ -1,21 +1,20 @@
-*, *::after, *::before{
-   padding: 0;
-   box-sizing: inherit;
-   margin: 0;
-}
+@import "abstracts/mixins";
+@import "abstracts/variables";
 
-.container{
-  background-image: radial-gradient(circle at center, whitesmoke, slategrey);
-  height: 100vh;
-  width: 100vw;
+@import "base/base";
+@import "base/animations";
+@import "base/typography";
+@import "base/utilities";
 
-  &__text{
-    display: block;
-    position: absolute;
-    top:50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-}
+@import "components/button";
+@import "components/photo-group";
+@import "components/language-box";
+@import "components/card";
+@import "components/story";
+@import "components/form";
 
-
+@import "layouts/header";
+@import "layouts/grid";
+@import "layouts/footer";
+@import "layouts/navigation";
+@import "layouts/home";

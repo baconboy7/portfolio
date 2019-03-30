@@ -1,20 +1,249 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
+
     <title>Ryan Fitzpatrick</title>
-    <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
-    <div class="container">
-        <div class="container__text">
-            <h1>Coming Soon</h1>
+<div class="navigation">
+    <input type="checkbox" class="navigation__checkbox" id="navigation-toggle">
+    <label for="navigation-toggle" class="navigation__button">
+        <span class="navigation__icon"></span>
+    </label>
+    <div class="navigation__background"></div>
+    <nav class="navigation__nav">
+        <ul class="navigation__list">
+            <li class="navigation__item"><a href="#" class="navigation__link">About Me</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">Languages</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">Portfolio</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">Contact Me</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">Github</a></li>
+        </ul>
+    </nav>
+
+</div>
+
+<header class="header">
+    <div class="header__text-box">
+        <h1 class="heading-primary">
+            <span class="heading-primary--main">Ryan Fitzpatrick</span>
+            <span class="heading-primary--sub">Full stack web developer</span>
+        </h1>
+        <a href="#" class="btn btn--white btn--fade-in">Contact Me</a>
+    </div>
+</header>
+<main>
+    <section class="section-about">
+        <div class="u-center-text u-margin-bottom-large">
+            <h2 class="heading-secondary">
+                About Me
+            </h2>
+        </div>
+
+        <div class="row">
+            <div class="col-1-of-2">
+                <h3 class="heading-third u-margin-bottom-small">Lorem</h3>
+                <p class="paragraph">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <h3 class="heading-third u-margin-bottom-small">Lorem</h3>
+                <p class="paragraph">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+
+                <a href="#" class="btn-text">Learn more &rarr;</a>
+            </div>
+            <div class="col-1-of-2">
+                Interactive Timeline here
+            </div>
+        </div>
+    </section>
+
+    <section class="section-languages">
+        <div class="row">
+            <div class="col-1-of-4">
+                <div class="language-box">
+                    <i class="language-box__icon"></i>
+                    <h3 class="heading-third u-margin-bottom-small">HTML</h3>
+                    <p class="language-box__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
+                    </p>
+                </div>
+            </div>
+            <div class="col-1-of-4">
+                <div class="language-box">
+                    <i class="language-box__icon"></i>
+                    <h3 class="heading-third u-margin-bottom-small">CSS</h3>
+                    <p class="language-box__text">
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+            </div>
+            <div class="col-1-of-4">
+                <div class="language-box">
+                    <i class="language-box__icon"></i>
+                    <h3 class="heading-third u-margin-bottom-small">Javascript</h3>
+                    <p class="language-box__text">
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </p>
+                </div>
+            </div>
+            <div class="col-1-of-4">
+                <div class="language-box">
+                    <i class="language-box__icont"></i>
+                    <h3 class="heading-third u-margin-bottom-small">PHP</h3>
+                    <p class="language-box__text">
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-projects">
+        <div class="u-center-text u-margin-bottom-large">
+            <h2 class="heading-secondary">
+                Projects
+            </h2>
+        </div>
+        <div class="row">
+            <div class="col-1-of-3">
+                <div class="card">
+                    <div class="card__side card__side--front card__side--front--1">
+                        <div class="card__picture card__picture--1"> &nbsp; </div>
+                        <h4 class="card__heading">
+                                    <span class="card__heading-span card__heading-span--1">
+                                        Lorem Ipsum Dolor Amit
+                                    </span>
+                        </h4>
+                        <div class="card__details">
+                            <ul>
+                                <li>Lorem</li>
+                                <li>Lorem Ipsum</li>
+                                <li>Lorem Ipsum</li>
+                                <li>Lorem Ipsum</li>
+                                <li>Lorem Ipsum</li>
+                                <li>Lorem Ipsum</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card__side card__side--back card__side--back--1">
+                        <div class="card__cta">
+                            <a href="#" class="btn btn--white u-margin-bottom-large">View Live Demo</a>
+                            <a href="#" class="btn btn--white">View Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1-of-3">
+                <div class="card">
+                    <div class="card__side card__side--front card__side--front--2">
+                        <div class="card__picture card__picture--2"> &nbsp; </div>
+                        <h4 class="card__heading">
+                                    <span class="card__heading-span card__heading-span--2">
+                                        Project Number 2
+                                    </span>
+                        </h4>
+                        <div class="card__details">
+                            <ul>
+                                <li>Lorem Ipsum</li>
+                                <li>Lorem Ipsum</li>
+                                <li>Lorem Ipsum</li>
+                                <li>Lorem Ipsum</li>
+                                <li>Lorem Ipsum</li>
+                                <li>Lorem Ipsum</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card__side card__side--back card__side--back--2">
+                        <div class="card__cta">
+                            <a href="#" class="btn btn--white u-margin-bottom-large">View Live Demo</a>
+                            <a href="#" class="btn btn--white">View Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1-of-3">
+                <div class="card">
+                    <div class="card__side card__side--front card__side--front--3">
+                        <div class="card__picture card__picture--3"> &nbsp; </div>
+                        <h4 class="card__heading">
+                                    <span class="card__heading-span card__heading-span--3">
+                                        My third project
+                                    </span>
+                        </h4>
+                        <div class="card__details">
+                            <ul>
+                                <li>Lorem Ipsum</li>
+                                <li>Lorem Ipsum</li>
+                                <li>Lorem Ipsum</li>
+                                <li>Lorem Ipsum</li>
+                                <li>Lorem Ipsum</li>
+                                <li>Lorem Ipsum</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card__side card__side--back card__side--back--3">
+                        <div class="card__cta">
+                            <a href="#" class="btn btn--white u-margin-bottom-large">View Live Demo</a>
+                            <a href="#" class="btn btn--white">View Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="u-center-text u-margin-top-large">
+            <a href="#" class="btn btn--blue">View More on Github</a>
+        </div>
+    </section>
+    <section class="section-contact">
+        <div class="row">
+            <div class="contact">
+                <div class="contact__form">
+                    <form class="form" method='post' data-netlify="true">
+                        <div class="u-margin-bottom-medium">
+                            <h2 class="heading-secondary">
+                                Contact Me Now
+                            </h2>
+                        </div>
+                        <div class="form__group">
+                            <input type="text" class="form__input" id="name" placeholder="Full Name" required>
+                            <label for="name" class="form__label">Full Name</label>
+                        </div>
+                        <div class="form__group">
+                            <input type="email" class="form__input" id="email" placeholder="Email Address" required>
+                            <label for="email" class="form__label">Email Address</label>
+                        </div>
+
+                        <div class="form__group">
+                            <button class="btn btn--blue">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="row">
+        <div class="col-1-of-2">
+            <p class="footer__copyright">
+                Header image courtesy of NASA's Astronomy Picture Of The Day
+            </p>
+        </div>
+        <div class="col-1-of-2">
+            <p class="footer__copyright">
+            &copy; <a href="#" class="footer__link">Ryan Fitzpatrick</a>
+        </p>
         </div>
     </div>
+</footer>
 
-    <script src="js/app.js" defer></script>
+<script src="js/app.js"></script>
 </body>
 </html>
