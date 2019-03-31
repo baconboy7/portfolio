@@ -57,11 +57,12 @@
 
     &--2{
       background-position: bottom;
-      background-image: linear-gradient(to right bottom, $green-lighter, $green-darker), url("../img/poll.jpg");
+      background-image: linear-gradient(to right bottom, $green-lighter, $green-darker), url("../img/snakes.jpg");
     }
 
     &--3{
-      background-image: linear-gradient(to right bottom, $blue-lighter, $blue-darker);
+      background-position: center;
+      background-image: linear-gradient(to right bottom, $blue-lighter, $blue-darker), url("../img/pancakes.jpg");
     }
 
 

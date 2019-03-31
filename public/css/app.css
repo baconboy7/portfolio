@@ -598,16 +598,17 @@ body {
 }
 .card__picture--2 {
   background-position: bottom;
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#7ed56f), to(#28b485)), url("../img/poll.jpg");
-  background-image: -webkit-linear-gradient(left top, #7ed56f, #28b485), url("../img/poll.jpg");
-  background-image: -o-linear-gradient(left top, #7ed56f, #28b485), url("../img/poll.jpg");
-  background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url("../img/poll.jpg");
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#7ed56f), to(#28b485)), url("../img/snakes.jpg");
+  background-image: -webkit-linear-gradient(left top, #7ed56f, #28b485), url("../img/snakes.jpg");
+  background-image: -o-linear-gradient(left top, #7ed56f, #28b485), url("../img/snakes.jpg");
+  background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url("../img/snakes.jpg");
 }
 .card__picture--3 {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#1e63b8), to(#013d63));
-  background-image: -webkit-linear-gradient(left top, #1e63b8, #013d63);
-  background-image: -o-linear-gradient(left top, #1e63b8, #013d63);
-  background-image: linear-gradient(to right bottom, #1e63b8, #013d63);
+  background-position: center;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#1e63b8), to(#013d63)), url("../img/pancakes.jpg");
+  background-image: -webkit-linear-gradient(left top, #1e63b8, #013d63), url("../img/pancakes.jpg");
+  background-image: -o-linear-gradient(left top, #1e63b8, #013d63), url("../img/pancakes.jpg");
+  background-image: linear-gradient(to right bottom, #1e63b8, #013d63), url("../img/pancakes.jpg");
 }
 .card__heading {
   font-size: 2.8rem;
