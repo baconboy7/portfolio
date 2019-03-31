@@ -43,10 +43,17 @@
 @keyframes fly {
   0%{
     left: 0;
+    opacity: 1;
+  }
+  99%{
+    opacity: 1;
+    left: 100vw;
   }
   100%{
-    left: 100vw;
-    display: none;
+    left: 80vw;
+    opacity: 0;
+    height: 0;
+    width: 0;
   }
 }
 

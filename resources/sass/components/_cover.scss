@@ -15,11 +15,11 @@
   position: absolute;
   top:45vh;
   left:0;
-  z-index: 2002;
+  z-index: 2003;
   display: inline-block;
   background-image: linear-gradient(to bottom right, $blue-lighter, $blue-darker);
   -webkit-background-clip: text;
   color: transparent;
 
-  animation: fly 1s ease-in-out forwards;
+  animation: fly 1.5s ease-in forwards;
 }

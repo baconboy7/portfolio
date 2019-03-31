@@ -61,7 +61,7 @@
   }
 
   @include responsive(tab-port) {
-    background-image: linear-gradient(to right, rgba($color-white, .9) 0%, rgba($color-white, .9) 70%, transparent 70%);
+    background-image: linear-gradient(to right, rgba($color-white, .9) 0%, rgba($color-white, .9) 100%, transparent 70%);
   }
 
   &__form {
@@ -71,6 +71,10 @@
 
     @include responsive(tab-land) {
       width: 70%;
+    }
+
+    @include responsive(tab-port) {
+      width: 100%;
     }
   }
 

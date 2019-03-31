@@ -159,22 +159,38 @@ body {
 @-webkit-keyframes fly {
   0% {
     left: 0;
+    opacity: 1;
+  }
+
+  99% {
+    opacity: 1;
+    left: 100vw;
   }
 
   100% {
-    left: 100vw;
-    display: none;
+    left: 80vw;
+    opacity: 0;
+    height: 0;
+    width: 0;
   }
 }
 
 @keyframes fly {
   0% {
     left: 0;
+    opacity: 1;
+  }
+
+  99% {
+    opacity: 1;
+    left: 100vw;
   }
 
   100% {
-    left: 100vw;
-    display: none;
+    left: 80vw;
+    opacity: 0;
+    height: 0;
+    width: 0;
   }
 }
 
@@ -891,7 +907,7 @@ body {
   position: absolute;
   top: 45vh;
   left: 0;
-  z-index: 2002;
+  z-index: 2003;
   display: inline-block;
   background-image: -webkit-gradient(linear, left top, right bottom, from(#1e63b8), to(#013d63));
   background-image: -webkit-linear-gradient(top left, #1e63b8, #013d63);
@@ -899,8 +915,8 @@ body {
   background-image: linear-gradient(to bottom right, #1e63b8, #013d63);
   -webkit-background-clip: text;
   color: transparent;
-  -webkit-animation: fly 1s ease-in-out forwards;
-  animation: fly 1s ease-in-out forwards;
+  -webkit-animation: fly 1.5s ease-in forwards;
+  animation: fly 1.5s ease-in forwards;
 }
 
 .header {
@@ -1302,10 +1318,10 @@ body {
 
 @media (max-width: 56.25em) {
   .contact {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.9)), color-stop(70%, rgba(255, 255, 255, 0.9)), color-stop(70%, transparent));
-    background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 70%, transparent 70%);
-    background-image: -o-linear-gradient(left, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 70%, transparent 70%);
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 70%, transparent 70%);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.9)), color-stop(100%, rgba(255, 255, 255, 0.9)), color-stop(70%, transparent));
+    background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%, transparent 70%);
+    background-image: -o-linear-gradient(left, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%, transparent 70%);
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%, transparent 70%);
   }
 }
 
@@ -1318,6 +1334,12 @@ body {
 @media (max-width: 75em) {
   .contact__form {
     width: 70%;
+  }
+}
+
+@media (max-width: 56.25em) {
+  .contact__form {
+    width: 100%;
   }
 }
 
