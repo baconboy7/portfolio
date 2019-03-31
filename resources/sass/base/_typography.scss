@@ -18,7 +18,7 @@ body {
     font-size: 6rem;
     font-weight: 400;
     letter-spacing: 3.5rem;
-    animation: fadeInLeft 1s ease-out;
+    animation: fadeInLeft 1s 1s ease-out backwards;
     margin-left: 1.5rem;
 
     @include responsive(phone) {
@@ -32,7 +32,7 @@ body {
     font-size: 2rem;
     font-weight: 700;
     letter-spacing: 1.6rem;
-    animation: fadeInRight 1s ease-out;
+    animation: fadeInRight 1s 1s ease-out backwards;
 
     @include responsive(phone) {
       letter-spacing: .5rem;
@@ -49,7 +49,12 @@ body {
   -webkit-background-clip: text;
   color: transparent;
   letter-spacing: .2rem;
-  transition: all .2s;
+  transition: all .3s;
+
+  &--white{
+    background-image: none;
+    color:white;
+  }
 
   @include responsive(tab-port) {
     font-size: 3rem;
@@ -60,7 +65,7 @@ body {
   }
 
   &:hover{
-    transform: skewY(2deg) skewX(15deg);
+    transform: translateY(-5px);
     text-shadow: .5rem 1rem 2rem rgba($color-black, .2);
   }
 }

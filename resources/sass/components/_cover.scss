@@ -1,0 +1,25 @@
+.cover {
+  height: 100vh;
+  width: 100vw;
+
+  position: absolute;
+  top:0;
+  left:0;
+  background-image: linear-gradient(to bottom right, $gray-lighter, $gray-darker);
+  z-index: 2002;
+
+  animation: vanish 1s 1s ease-in-out forwards;
+}
+
+#rocket{
+  position: absolute;
+  top:45vh;
+  left:0;
+  z-index: 2002;
+  display: inline-block;
+  background-image: linear-gradient(to bottom right, $blue-lighter, $blue-darker);
+  -webkit-background-clip: text;
+  color: transparent;
+
+  animation: fly 1s ease-in-out forwards;
+}
