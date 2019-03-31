@@ -51,27 +51,22 @@
 }
 
 .contact {
+  position: relative;
   background-image: linear-gradient(105deg, rgba($color-white, .9) 0%, rgba($color-white, .9) 50%, transparent 50%);
   background-size: cover;
   border-radius: .3rem;
   box-shadow: 0 1.5rem 4rem rgba($color-black, .2);
 
-  @include responsive(tab-land) {
-    background-image: linear-gradient(105deg, rgba($color-white, .9) 0%, rgba($color-white, .9) 70%, transparent 70%);
-  }
 
   @include responsive(tab-port) {
     background-image: linear-gradient(to right, rgba($color-white, .9) 0%, rgba($color-white, .9) 100%, transparent 70%);
   }
 
   &__form {
+    display: inline-block;
     position: relative;
     padding: 6rem;
     width: 50%;
-
-    @include responsive(tab-land) {
-      width: 70%;
-    }
 
     @include responsive(tab-port) {
       width: 100%;
@@ -79,8 +74,18 @@
   }
 
   &__info{
-    position: relative;
-    top: -50rem;
-    right: -90rem;
+    position: absolute;
+    top: 20rem;
+    right: 15rem;
+    display: inline-block;
+    width: 30%;
+
+    @include responsive(tab-port) {
+      position: relative;
+      display: block;
+      width: 100%;
+      top: 0;
+      left: 5rem;
+    }
   }
 }

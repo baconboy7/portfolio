@@ -10,7 +10,11 @@ body {
   color: #fff;
   text-transform: uppercase;
   margin-bottom: 60px;
-
+  text-shadow:
+          -1px -1px 0 #000,
+          1px -1px 0 #000,
+          -1px 1px 0 #000,
+          1px 1px 0 #000;
 
 
   &--main {
@@ -81,5 +85,24 @@ body {
 
   &:not(:last-child) {
     margin-bottom: 3rem;
+  }
+}
+
+.heading-contact {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-image: none;
+  color:white;
+  display: inline-block;
+  letter-spacing: .2rem;
+  transition: all .3s;
+
+  @include responsive(tab-port) {
+    display: block;
+    font-size: 2rem;
+    color:$blue;
+    padding-bottom: 1rem;
+
   }
 }

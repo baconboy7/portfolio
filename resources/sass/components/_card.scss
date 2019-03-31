@@ -24,15 +24,15 @@
       transform: rotateY(180deg);
 
       &--1 {
-        background-image: linear-gradient(to right bottom, $color-light-orange, $color-dark-orange);
+        background-image: linear-gradient(to right bottom, $orange-lighter, $orange-darker);
       }
 
       &--2 {
-        background-image: linear-gradient(to right bottom, $color-light-green, $color-dark-green);
+        background-image: linear-gradient(to right bottom, $green-lighter, $green-darker);
       }
 
       &--3 {
-        background-image: linear-gradient(to right bottom, $color-light-blue, $color-dark-blue);
+        background-image: linear-gradient(to right bottom, $blue-lighter, $blue-darker);
       }
     }
   }
@@ -52,15 +52,16 @@
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 
     &--1{
-      background-image: linear-gradient(to right bottom, $color-light-orange, $color-dark-orange);
+      background-image: linear-gradient(to right bottom, $orange-lighter, $orange-darker), url("../../../public/img/person-typing.jpg");
     }
 
     &--2{
-      background-image: linear-gradient(to right bottom, $color-light-green, $color-dark-green);
+      background-position: bottom;
+      background-image: linear-gradient(to right bottom, $green-lighter, $green-darker), url("../../../public/img/poll.jpg");
     }
 
     &--3{
-      background-image: linear-gradient(to right bottom, $color-light-blue, $color-dark-blue);
+      background-image: linear-gradient(to right bottom, $blue-lighter, $blue-darker);
     }
 
 
@@ -84,15 +85,15 @@
     box-decoration-break: clone;
 
     &--1 {
-      background-image: linear-gradient(to right bottom, rgba($color-light-orange, .85), rgba($color-dark-orange, .85))
+      background-image: linear-gradient(to right bottom, rgba($orange-lighter, .85), rgba($orange-darker, .85))
     }
 
     &--2 {
-      background-image: linear-gradient(to right bottom, rgba($color-light-green, .85), rgba($color-dark-green, .85))
+      background-image: linear-gradient(to right bottom, rgba($green-lighter, .85), rgba($green-darker, .85))
     }
 
     &--3 {
-      background-image: linear-gradient(to right bottom, rgba($color-light-blue, .85), rgba($color-dark-blue, .85))
+      background-image: linear-gradient(to right bottom, rgba($blue-lighter, .85), rgba($blue-darker, .85))
     }
   }
 
