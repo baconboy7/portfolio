@@ -591,17 +591,17 @@ body {
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 }
 .card__picture--1 {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#ffb900), to(#ff7730)), url("img/person-typing.jpg");
-  background-image: -webkit-linear-gradient(left top, #ffb900, #ff7730), url("img/person-typing.jpg");
-  background-image: -o-linear-gradient(left top, #ffb900, #ff7730), url("img/person-typing.jpg");
-  background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url("img/person-typing.jpg");
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#ffb900), to(#ff7730)), url("../img/person-typing.jpg");
+  background-image: -webkit-linear-gradient(left top, #ffb900, #ff7730), url("../img/person-typing.jpg");
+  background-image: -o-linear-gradient(left top, #ffb900, #ff7730), url("../img/person-typing.jpg");
+  background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url("../img/person-typing.jpg");
 }
 .card__picture--2 {
   background-position: bottom;
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#7ed56f), to(#28b485)), url("img/poll.jpg");
-  background-image: -webkit-linear-gradient(left top, #7ed56f, #28b485), url("img/poll.jpg");
-  background-image: -o-linear-gradient(left top, #7ed56f, #28b485), url("img/poll.jpg");
-  background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url("img/poll.jpg");
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#7ed56f), to(#28b485)), url("../img/poll.jpg");
+  background-image: -webkit-linear-gradient(left top, #7ed56f, #28b485), url("../img/poll.jpg");
+  background-image: -o-linear-gradient(left top, #7ed56f, #28b485), url("../img/poll.jpg");
+  background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url("../img/poll.jpg");
 }
 .card__picture--3 {
   background-image: -webkit-gradient(linear, left top, right bottom, from(#1e63b8), to(#013d63));

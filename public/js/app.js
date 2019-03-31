@@ -1997,6 +1997,23 @@ axios.get(nasaURL).then(function (response) {
   console.log(error);
 });
 
+function closeNavigation() {
+  document.getElementById('navigation-toggle').checked = false;
+}
+
+document.getElementById("about-link").addEventListener('click', function () {
+  closeNavigation();
+});
+document.getElementById("languages-link").addEventListener('click', function () {
+  closeNavigation();
+});
+document.getElementById("portfolio-link").addEventListener('click', function () {
+  closeNavigation();
+});
+document.getElementById("contact-link").addEventListener('click', function () {
+  closeNavigation();
+});
+
 /***/ }),
 
 /***/ "./resources/sass/app.scss":

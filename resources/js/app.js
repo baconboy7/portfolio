@@ -9,3 +9,21 @@ axios.get(nasaURL)
     .catch(function (error) {
         console.log(error);
     });
+
+function closeNavigation(){
+    document.getElementById('navigation-toggle').checked = false;
+}
+
+document.getElementById("about-link").addEventListener('click', () => {
+    closeNavigation();
+});
+document.getElementById("languages-link").addEventListener('click', () => {
+    closeNavigation();
+});
+document.getElementById("portfolio-link").addEventListener('click', () => {
+    closeNavigation();
+});
+document.getElementById("contact-link").addEventListener('click', () => {
+    closeNavigation();
+});
+
