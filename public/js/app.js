@@ -1992,7 +1992,6 @@ var axios = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 
 var nasaURL = "https://api.nasa.gov/planetary/apod?api_key=" + "xic1Uof28bOaAqyLUTCuY1rDsJZdZlqJCVnrCFM3";
 axios.get(nasaURL).then(function (response) {
-  console.log(response);
   document.querySelector('.header').style.backgroundImage = "url(".concat(response.data.hdurl, ")");
 }).catch(function (error) {
   console.log(error);

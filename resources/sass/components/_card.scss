@@ -52,12 +52,12 @@
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 
     &--1{
-      background-image: linear-gradient(to right bottom, $orange-lighter, $orange-darker), url("../../../public/img/person-typing.jpg");
+      background-image: linear-gradient(to right bottom, $orange-lighter, $orange-darker), url("img/person-typing.jpg");
     }
 
     &--2{
       background-position: bottom;
-      background-image: linear-gradient(to right bottom, $green-lighter, $green-darker), url("../../../public/img/poll.jpg");
+      background-image: linear-gradient(to right bottom, $green-lighter, $green-darker), url("img/poll.jpg");
     }
 
     &--3{
