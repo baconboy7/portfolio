@@ -881,10 +881,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#6e6e6e), to(#434444));
-  background-image: -webkit-linear-gradient(top left, #6e6e6e, #434444);
-  background-image: -o-linear-gradient(top left, #6e6e6e, #434444);
-  background-image: linear-gradient(to bottom right, #6e6e6e, #434444);
+  background: white;
   z-index: 2002;
   -webkit-animation: vanish 1s 1s ease-in-out forwards;
   animation: vanish 1s 1s ease-in-out forwards;
