@@ -42,19 +42,12 @@
 
 @keyframes fly {
   0%{
-    left: 0;
-    opacity: 1;
+    left: -10vw;
   }
-  75%{
-    opacity: 1;
+  100% {
     left: 100vw;
   }
-  100%{
-    left: 0;
-    opacity: 0;
-    height: 0;
-    width: 0;
-  }
+
 }
 
 @keyframes vanish {

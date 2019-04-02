@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "fs": "0.0.1-security",
+    "image-promise": "^6.0.2",
     "toastr": "^2.1.4"
   },
   "repository": {

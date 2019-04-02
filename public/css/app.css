@@ -135,34 +135,18 @@ body {
 }
 @-webkit-keyframes fly {
   0% {
-    left: 0;
-    opacity: 1;
-  }
-  75% {
-    opacity: 1;
-    left: 100vw;
+    left: -10vw;
   }
   100% {
-    left: 0;
-    opacity: 0;
-    height: 0;
-    width: 0;
+    left: 100vw;
   }
 }
 @keyframes fly {
   0% {
-    left: 0;
-    opacity: 1;
-  }
-  75% {
-    opacity: 1;
-    left: 100vw;
+    left: -10vw;
   }
   100% {
-    left: 0;
-    opacity: 0;
-    height: 0;
-    width: 0;
+    left: 100vw;
   }
 }
 @-webkit-keyframes vanish {
@@ -806,8 +790,11 @@ body {
   left: 0;
   background: white;
   z-index: 2002;
-  -webkit-animation: vanish 1s 1s ease-in-out forwards;
-  animation: vanish 1s 1s ease-in-out forwards;
+}
+
+.vanish {
+  -webkit-animation: vanish 1s ease-in-out forwards;
+  animation: vanish 1s ease-in-out forwards;
 }
 
 #rocket {
@@ -822,8 +809,8 @@ body {
   background-image: linear-gradient(to bottom right, #1e63b8, #013d63);
   -webkit-background-clip: text;
   color: transparent;
-  -webkit-animation: fly 1.5s ease-in forwards;
-  animation: fly 1.5s ease-in forwards;
+  -webkit-animation: fly 1.5s ease-in infinite;
+  animation: fly 1.5s ease-in infinite;
 }
 
 .header {
