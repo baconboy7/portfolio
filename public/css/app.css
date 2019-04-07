@@ -1091,6 +1091,11 @@ body {
   }
 }
 
+main {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 .section-languages {
   padding: 20rem 0;
   background-image: -webkit-gradient(linear, left top, right bottom, from(#1e63b8), to(#013d63));
