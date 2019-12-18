@@ -1,6 +1,7 @@
 const axios = require('axios');
 const loadImage = require('image-promise');
 const toastr = require('toastr');
+toastr.options.newestOnTop = false;
 
 let nasaURL = 'https://api.nasa.gov/planetary/apod?api_key=' + process.env.MIX_NASA_API_KEY;
 
