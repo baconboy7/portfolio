@@ -1,11 +1,9 @@
 @import "abstracts/mixins";
 @import "abstracts/variables";
-
 @import "base/base";
 @import "base/animations";
 @import "base/typography";
 @import "base/utilities";
-
 @import "components/button";
 @import "components/photo-group";
 @import "components/language-box";
@@ -13,9 +11,9 @@
 @import "components/story";
 @import "components/form";
 @import "components/cover";
-
 @import "layouts/header";
 @import "layouts/grid";
 @import "layouts/footer";
 @import "layouts/navigation";
 @import "layouts/home";
+@import "~toastr/toastr";
