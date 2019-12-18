@@ -13,6 +13,7 @@ axios.get(nasaURL)
                removeRocket();
           
                toastr.error('This site is still under construction!', 'Warning!');
+               toastr.info('I can still be reached via email, phone, or the contact form below.');
            })
            .catch(function () {
                removeRocket();
